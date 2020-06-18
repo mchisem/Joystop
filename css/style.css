@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fdfaf0;
+}
+
+/* section 1 */
+#s1 img {
+    height: 35vh;
+}
+
+#s1 nav {
+    padding: 20px;
+    margin: 60px;
+    /* margin-top: 6%; */
+    float: right;
+    background-color: #fdca00;
+}
+
+#s1 nav a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#s1 nav a:hover {
+    color: #ff94be;
+}
+
+#s1 h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -4%;
+}
+
+/* section 2*/
+/* #s2 {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: cadetblue;
+    width: 100%;
+} */
+
+#slide {
+    /* position: absolute; */
+    height: 60vh;
+    /* width: 70%; */
+    /* margin: 60px; */
+    /* top: -1%; */
+    /* left: 0; */
+    /* right: 0; */
+    /* padding: 50px; */
+    background-image: url(../pictutes/blue/IMG_4926.JPG);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    z-index: -1;
+    animation: slide 20s 4s infinite;
+}
+
+@keyframes slide {
+    /* 0% {background-image: url(../photos/greenEarrings/IMG_1503.JPG);} */
+    25%  {background-image: url(../pictutes/brown/IMG_1698.JPG);}
+    50%  {background-image: url(../pictutes/green/IMG_1503.JPG);}
+    75%  {background-image: url(../pictutes/red/IMG_4058.JPG);}
+    100%  {background-image: url(../pictutes/yellow/IMG_5737.JPG);}
+}
