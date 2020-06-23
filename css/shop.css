@@ -23,6 +23,7 @@ body {
     padding: 20px;
     margin: 60px;
     background-color: #fdca00;
+    z-index: 3;
 }
 
 #s1 nav a {
@@ -44,12 +45,13 @@ body {
     margin-top: -4%;
 }
 
-/* section 2*/
+/* section 2 */
 #s2 {
     position: absolute;
-    top: 28%;
-    width: 100%;
-    /* left: 3%; */
+    top: 27%;
+    width: 80%;
+    left: 10%;
+    text-align: center;
 }
 
 #slide {
@@ -61,11 +63,18 @@ body {
     animation: slide 20s 4s infinite;
 }
 
-@keyframes slide {
-    /* 0% {background-image: url(../photos/greenEarrings/IMG_1503.JPG);} */
-    25%  {background-image: url(../pictutes/brown/IMG_1698.JPG);}
-    50%  {background-image: url(../pictutes/green/IMG_1503.JPG);}
-    75%  {background-image: url(../pictutes/red/IMG_4058.JPG);}
-    100%  {background-image: url(../pictutes/yellow/IMG_5737.JPG);}
+/* section 3 */
+#s3 {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#s3 img {
+    height: 60vh;
+    padding: 90px;
 }
 
